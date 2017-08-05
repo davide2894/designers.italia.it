@@ -291,7 +291,7 @@
   box-shadow: none !important; }
 
 .u-pullUp {
-  margin-top: -120px; }
+  margin-top: -60px; }
 
 .u-pullUp-10 {
   margin-top: -10em; }
@@ -339,7 +339,8 @@
       position: absolute;
       top: -0.4em;
       z-index: -2;
-      user-select: none; }
+      user-select: none;
+      white-space: nowrap; }
 
 /* Content style and TOC
   ======================== */
@@ -353,7 +354,7 @@
   text-decoration: none;
   font-size: 18px !important; }
 
-.toc-entry.toc-h3,
+.toc-entry.toc-h2,
 .toc-entry.toc-h4,
 .toc-entry.toc-h5,
 .toc-entry.toc-h6 {
